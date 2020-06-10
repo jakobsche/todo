@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="todo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="20"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <TopLine Value="75"/>
+        <CursorPos Y="87"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="tm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TM"/>
+        <CursorPos X="19" Y="21"/>
+        <UsageCount Value="47"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutBox"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="About"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="28" Y="100"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="config.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Config"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="123"/>
+        <CursorPos X="12" Y="135"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../packages/jakobsche/lzpatch.pas"/>
+        <UnitName Value="LZPatch"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="20"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/usr/share/fpcsrc/2.6.4/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="652"/>
+        <CursorPos X="18" Y="660"/>
+        <UsageCount Value="8"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/lib64/lazarus/lcl/lclproc.pas"/>
+        <TopLine Value="849"/>
+        <CursorPos X="32" Y="858"/>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/lib64/lazarus/lcl/dialogs.pp"/>
+        <TopLine Value="516"/>
+        <CursorPos X="15" Y="526"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../packages/jakobsche/streaming2.pas"/>
+        <UnitName Value="Streaming2"/>
+        <TopLine Value="58"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="13"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../packages/streams/streaming2.pas"/>
+        <UnitName Value="Streaming2"/>
+        <TopLine Value="15"/>
+        <CursorPos X="42" Y="41"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="1279"/>
+        <CursorPos X="22" Y="1295"/>
+        <UsageCount Value="11"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/classes/reader.inc"/>
+        <TopLine Value="1419"/>
+        <CursorPos X="13" Y="1419"/>
+        <UsageCount Value="11"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../packages/streams/streambase.pas"/>
+        <UnitName Value="StreamBase"/>
+        <TopLine Value="7"/>
+        <CursorPos X="21" Y="28"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/lib64/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="633"/>
+        <CursorPos X="29" Y="650"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/lib64/lazarus/lcl/include/customform.inc"/>
+        <TopLine Value="2011"/>
+        <CursorPos X="57" Y="2046"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/lib64/lazarus/lcl/include/control.inc"/>
+        <TopLine Value="3935"/>
+        <CursorPos Y="3953"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/lib64/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="156"/>
+        <CursorPos X="66" Y="173"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:/lazarus/lcl/include/customform.inc"/>
+        <TopLine Value="183"/>
+        <CursorPos Y="196"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../packages/lclpatch/media.pas"/>
+        <UnitName Value="Media"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="37" Y="15"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit19>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="config.pas"/>
+        <Caret Line="144" Column="29" TopLine="124"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../packages/lclpatch/media.pas"/>
+        <Caret Line="20" Column="3" TopLine="7"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="AppConfig.HasChanged"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

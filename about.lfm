@@ -1,0 +1,167 @@
+object AboutBox: TAboutBox
+  Left = 398
+  Height = 501
+  Top = 151
+  Width = 868
+  BorderStyle = bsDialog
+  Caption = 'Über Aufgabenliste'
+  ClientHeight = 501
+  ClientWidth = 868
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnResize = FormResize
+  OnShow = FormShow
+  Position = poDefault
+  LCLVersion = '1.4.4.0'
+  WindowState = wsMaximized
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 184
+    Top = 0
+    Width = 868
+    Align = alTop
+    Caption = 'Kurzbeschreibung'
+    ClientHeight = 163
+    ClientWidth = 864
+    Font.Height = 16
+    ParentFont = False
+    TabOrder = 0
+    object ScrollBox1: TScrollBox
+      Left = 0
+      Height = 163
+      Top = 0
+      Width = 864
+      HorzScrollBar.Page = 860
+      VertScrollBar.Page = 96
+      Align = alClient
+      ClientHeight = 143
+      ClientWidth = 860
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 0
+        Height = 144
+        Top = 0
+        Width = 1290
+        Align = alTop
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Caption = 'Version 0.0.0.0'#10#10'Die App kann als einfache Aufgabenverwaltung verwendet werden. Man kann Aufgaben hinzufügen, verschieben (z.B. nach Wichtigkeit sortieren) oder löschen (z.B. wenn sie erledigt sind). Die Aufgabenliste wird im Benutzerkonto automatisch gespeichert.'#10#10'Hinweis: Mit der App "Annette''s Datenspiegelung" kann man das eigene Benutzerkonto komfortabel auf einem externen Datenträger sichern.'
+        Color = clWhite
+        Font.Height = 16
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        OnClick = Label1Click
+      end
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 121
+    Top = 380
+    Width = 868
+    Align = alBottom
+    Caption = 'Autor'
+    ClientHeight = 100
+    ClientWidth = 864
+    Font.Height = 16
+    ParentFont = False
+    TabOrder = 1
+    object ScrollBox3: TScrollBox
+      Left = 0
+      Height = 100
+      Top = 0
+      Width = 864
+      HorzScrollBar.Page = 195
+      Align = alClient
+      ClientHeight = 96
+      ClientWidth = 860
+      TabOrder = 0
+      object Label2: TLabel
+        Left = 0
+        Height = 80
+        Top = 0
+        Width = 860
+        Align = alTop
+        Caption = 'Andreas Jakobsche'#10'Schopenhauerstraße 35C'#10'70565 Stuttgart'#10#10'EMail: messages@jakobsche.de'
+        Color = clWhite
+        Font.Height = 16
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+      end
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 0
+    Height = 196
+    Top = 184
+    Width = 868
+    Align = alClient
+    Caption = 'Lizenz'
+    ClientHeight = 175
+    ClientWidth = 864
+    Font.Height = 16
+    ParentFont = False
+    TabOrder = 2
+    object AgreementBox: TCheckBox
+      Left = 8
+      Height = 21
+      Top = 145
+      Width = 392
+      Anchors = [akLeft, akBottom]
+      AutoSize = False
+      Caption = '&Ich bin mit diesen Bedingungen einverstanden.'
+      Color = clYellow
+      OnChange = AgreementBoxChange
+      ParentColor = False
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Left = 432
+      Height = 25
+      Top = 142
+      Width = 96
+      Anchors = [akLeft, akBottom]
+      Cancel = True
+      Caption = '&Schließen'
+      Default = True
+      OnClick = Button1Click
+      TabOrder = 1
+    end
+    object ScrollBox2: TScrollBox
+      Left = 0
+      Height = 136
+      Top = 0
+      Width = 864
+      HorzScrollBar.Page = 860
+      VertScrollBar.Page = 112
+      Align = alTop
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      ClientHeight = 116
+      ClientWidth = 860
+      TabOrder = 2
+      object Label3: TLabel
+        Left = 0
+        Height = 112
+        Top = 0
+        Width = 1226
+        Align = alTop
+        Caption = 'Lizenzgeber ist der Autor dieser App. '#10'Diese App "Aufgabenliste", verteilt als Datei mit dem Namen "todo.exe" oder "todo" ist Freeware. Das bedeutet insbesondere:'#10#10'Jeder, der mit den folgenden Festlegungen einverstanden ist, darf diese App frei verwenden und verteilen.'#10'Damit erstellte Dateien sind Eigentum ihrer Verfasser (Anwender dieser App).'#10'Der Autor verfolgt mit dieser App keinen anderen Zweck als in der Dokumentation angegeben. Diese Aussagen gelten jedoch nicht als zugesicherte Eigenschaften und Begründen keinen Rechtsanspruch.'#10'Soweit gesetzlich nicht ausgeschlossen, haftet der Autor nicht für Schäden aus der Verwendung dieser App.'
+        Color = clWhite
+        Font.Height = 16
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        OnChangeBounds = Label3ChangeBounds
+      end
+    end
+  end
+  object ImageList: TImageList
+    left = 400
+    top = 240
+  end
+end
