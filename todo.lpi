@@ -21,6 +21,7 @@
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
+      <DestinationDirectory Value="/Users/andreas/Lazarus/todo/deploy/src"/>
     </PublishOptions>
     <RunParams>
       <FormatVersion Value="2"/>

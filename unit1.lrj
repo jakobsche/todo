@@ -1,0 +1,18 @@
+{"version":1,"strings":[
+{"hash":84925797,"name":"tform1.caption","sourcebytes":[65,117,102,103,97,98,101,110,108,105,115,116,101],"value":"Aufgabenliste"},
+{"hash":106991073,"name":"tform1.toolbar1.caption","sourcebytes":[84,111,111,108,66,97,114,49],"value":"ToolBar1"},
+{"hash":98940446,"name":"tform1.toolbutton1.hint","sourcebytes":[78,101,117,101,32,65,117,102,103,97,98,101,32,101,105,110,102,195,188,103,101,110],"value":"Neue Aufgabe einf\u00FCgen"},
+{"hash":160486417,"name":"tform1.toolbutton1.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,49],"value":"ToolButton1"},
+{"hash":250348526,"name":"tform1.toolbutton2.hint","sourcebytes":[77,97,114,107,105,101,114,116,101,32,65,117,102,103,97,98,101,32,110,97,99,104,32,117,110,116,101,110,32,118,101,114,115,99,104,105,101,98,101,110],"value":"Markierte Aufgabe nach unten verschieben"},
+{"hash":160486418,"name":"tform1.toolbutton2.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,50],"value":"ToolButton2"},
+{"hash":165968750,"name":"tform1.toolbutton3.hint","sourcebytes":[77,97,114,107,105,101,114,116,101,32,65,117,102,103,97,98,101,32,110,97,99,104,32,111,98,101,110,32,118,101,114,115,99,104,105,101,98,101,110],"value":"Markierte Aufgabe nach oben verschieben"},
+{"hash":160486419,"name":"tform1.toolbutton3.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,51],"value":"ToolButton3"},
+{"hash":160486420,"name":"tform1.toolbutton4.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,52],"value":"ToolButton4"},
+{"hash":21273438,"name":"tform1.toolbutton5.hint","sourcebytes":[77,97,114,107,105,101,114,116,101,32,65,117,102,103,97,98,101,32,108,195,182,115,99,104,101,110],"value":"Markierte Aufgabe l\u00F6schen"},
+{"hash":160486421,"name":"tform1.toolbutton5.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,53],"value":"ToolButton5"},
+{"hash":160486422,"name":"tform1.toolbutton6.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,54],"value":"ToolButton6"},
+{"hash":160486423,"name":"tform1.toolbutton7.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,55],"value":"ToolButton7"},
+{"hash":37430238,"name":"tform1.toolbutton8.hint","sourcebytes":[83,99,104,114,105,102,116,32,195,164,110,100,101,114,110],"value":"Schrift \u00E4ndern"},
+{"hash":160486424,"name":"tform1.toolbutton8.caption","sourcebytes":[84,111,111,108,66,117,116,116,111,110,56],"value":"ToolButton8"},
+{"hash":143687998,"name":"tform1.toolbutton9.caption","sourcebytes":[66,101,97,114,98,101,105,116,101,110],"value":"Bearbeiten"}
+]}
