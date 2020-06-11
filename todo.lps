@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="20">
       <Unit0>
@@ -9,7 +9,6 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="4"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="1"/>
         <CursorPos X="19" Y="20"/>
         <UsageCount Value="47"/>
         <Loaded Value="True"/>
@@ -21,6 +20,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
         <TopLine Value="75"/>
         <CursorPos Y="87"/>
         <UsageCount Value="47"/>
@@ -53,9 +53,10 @@
         <Filename Value="config.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Config"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="123"/>
+        <TopLine Value="120"/>
         <CursorPos X="12" Y="135"/>
         <UsageCount Value="33"/>
         <Loaded Value="True"/>
@@ -65,8 +66,7 @@
         <UnitName Value="LZPatch"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="20"/>
+        <CursorPos Y="20"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit5>
@@ -156,17 +156,14 @@
       <Unit19>
         <Filename Value="../packages/lclpatch/media.pas"/>
         <UnitName Value="Media"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="0"/>
         <WindowIndex Value="1"/>
-        <TopLine Value="15"/>
-        <CursorPos X="37" Y="15"/>
+        <CursorPos X="32" Y="3"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit19>
     </Units>
     <General>
-      <ActiveWindowIndexAtStart Value="0"/>
+      <ActiveWindowIndexAtStart Value="1"/>
     </General>
     <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
@@ -178,6 +175,10 @@
         <Caret Line="20" Column="3" TopLine="7"/>
       </Position2>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
   <Debugging>
     <Watches Count="2">
@@ -186,5 +187,4 @@
       </Item1>
     </Watches>
   </Debugging>
-  <EditorMacros Count="0"/>
 </CONFIG>
