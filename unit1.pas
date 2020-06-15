@@ -43,6 +43,7 @@ type
     procedure ToolButton5Click(Sender: TObject);
     procedure ToolButton6Click(Sender: TObject);
     procedure ToolButton8Click(Sender: TObject);
+    procedure ToolButton9Click(Sender: TObject);
   private
     { private declarations }
     HasChanged: Boolean;
@@ -164,6 +165,14 @@ begin
     TaskListBox.Font := FontDialog.Font;
     HasChanged := True
   end;
+end;
+
+procedure TForm1.ToolButton9Click(Sender: TObject);
+begin
+  with TaskListBox do
+    if ItemIndex >= 0 then
+      Items[ItemIndex] := InputBox('Aufgabe bearbeiten', '', Items[ItemIndex])
+  else ShowMessage('Kein Eintrag ist zum Bearbeiten ausgewählt.')
 end;
 
 function TForm1.GetTaskFileName: string;

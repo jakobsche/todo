@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 652
-  Height = 340
-  Top = 249
+  Left = 1111
+  Height = 332
+  Top = 373
   Width = 320
   Caption = 'Aufgabenliste'
-  ClientHeight = 340
+  ClientHeight = 332
   ClientWidth = 320
   OnActivate = FormActivate
   OnChangeBounds = FormChangeBounds
@@ -73,21 +73,21 @@ object Form1: TForm1
       ShowHint = True
     end
     object ToolButton6: TToolButton
-      Left = 101
+      Left = 124
       Height = 22
       Top = 2
       Caption = 'ToolButton6'
       Style = tbsSeparator
     end
     object ToolButton7: TToolButton
-      Left = 132
+      Left = 155
       Top = 2
       Caption = 'ToolButton7'
       ImageIndex = 4
       OnClick = ToolButton6Click
     end
     object ToolButton8: TToolButton
-      Left = 109
+      Left = 132
       Hint = 'Schrift ändern'
       Top = 2
       Caption = 'ToolButton8'
@@ -97,22 +97,23 @@ object Form1: TForm1
       ShowHint = True
     end
     object ToolButton9: TToolButton
-      Left = 155
+      Left = 101
       Top = 2
       Caption = 'Bearbeiten'
       ImageIndex = 6
+      OnClick = ToolButton9Click
     end
   end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 18
-    Top = 322
+    Top = 314
     Width = 320
     Panels = <>
   end
   object TaskListBox: TListBox
     Left = 0
-    Height = 296
+    Height = 288
     Top = 26
     Width = 320
     Align = alClient
