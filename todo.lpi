@@ -15,13 +15,17 @@
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <Language Value="0407"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <DestinationDirectory Value="/Users/andreas/Lazarus/todo/deploy/src"/>
+      <DestinationDirectory Value="$(ProjPath)/deploy/src"/>
+      <OpenInFileMan Value="True"/>
     </PublishOptions>
     <RunParams>
       <FormatVersion Value="2"/>
